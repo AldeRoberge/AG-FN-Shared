@@ -116,6 +116,10 @@
         <Project>{c8418884-4690-4ebf-b486-40b61ab6821d}</Project>
         <Name>AG-FishNet-Database</Name>
       </ProjectReference>
+      <ProjectReference Include="..\AG-FishNet-Shared\AG-FishNet-Shared.csproj">
+        <Project>{d5aabe5e-5b11-4556-9b37-a2954788b8e5}</Project>
+        <Name>AG-FishNet-Shared</Name>
+      </ProjectReference>
     </ItemGroup>
     <ItemGroup>
       <Content Include="Core\Compression\Snappy\lib\linux\libsnappy64.so" />

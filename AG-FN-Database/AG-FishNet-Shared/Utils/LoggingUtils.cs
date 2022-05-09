@@ -2,7 +2,7 @@
 using NLog;
 using NLog.Layouts;
 
-namespace AG_LNL_Shared_Utils.Utils
+namespace AG_FishNet_Shared.Utils
 {
     public static class LoggingUtils
     {

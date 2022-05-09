@@ -1,4 +1,4 @@
-﻿namespace AG_LNL_Shared.Setup
+﻿namespace AG_FishNet_Shared.Setup.Core
 {
     public abstract class Setup
     {

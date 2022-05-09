@@ -1,6 +1,6 @@
-namespace AG_LNL_Shared.Setup
+namespace AG_FishNet_Shared.Setup
 {
-    public class Testing : Setup
+    public class Testing : Core.Setup
     {
         public override string GetDomainURL()
         {
