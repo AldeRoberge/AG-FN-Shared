@@ -15,6 +15,8 @@ namespace AG_FishNet_Shared.Database.DTO
         public string Username { get; set; }
 
         public DateTime DateCreated { get; set; }
+        
+        public bool AccountInUse { get; set; }
 
         public UserAccount(string phoneNumber, string ipAddress)
         {
@@ -22,6 +24,7 @@ namespace AG_FishNet_Shared.Database.DTO
             IPAddress = ipAddress;
             DateCreated = DateTime.Now;
             Username = RandomName.GetRandomName();
+            AccountInUse = false;
         }
     }
 }

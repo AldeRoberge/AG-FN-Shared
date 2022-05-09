@@ -32,5 +32,15 @@ namespace AG_FishNet_Shared.Database.Collections.Accounts
         {
             return await Update(await GetAccountAsync(phoneNumber), Set(nameof(UserAccount.PhoneCode), phoneCode));
         }
+
+        public async Task<UserAccount> SetAccountInUse(UserAccount userAccount, bool isActive)
+        {
+            return await Update(await Get(userAccount), Set(nameof(UserAccount.AccountInUse), isActive));
+        }
+
+        public async Task ResetAccountInUse()
+        {
+            await UpdateAll(Set(nameof(UserAccount.AccountInUse), false));
+        }
     }
 }

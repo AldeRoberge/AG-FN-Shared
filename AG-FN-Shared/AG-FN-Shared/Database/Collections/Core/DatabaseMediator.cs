@@ -14,7 +14,7 @@ namespace AG_FishNet_Shared.Database.Collections.Core
             private readonly NLog.Logger _log = NLog.LogManager.GetCurrentClassLogger();
 
             private readonly IMongoDatabase _database;
-            
+
             private readonly string _collectionName;
 
             private IMongoCollection<T> _collection;
@@ -109,6 +109,11 @@ namespace AG_FishNet_Shared.Database.Collections.Core
             public Task<T> Get(ObjectId id)
             {
                 return GetCollection().Find(b => b.Id == id).FirstOrDefaultAsync();
+            }
+
+            public Task<T> Get(T id)
+            {
+                return GetCollection().Find(b => b.Id == id.Id).FirstOrDefaultAsync();
             }
 
             public async Task<T> Update(T b, UpdateDefinition<T> update)
