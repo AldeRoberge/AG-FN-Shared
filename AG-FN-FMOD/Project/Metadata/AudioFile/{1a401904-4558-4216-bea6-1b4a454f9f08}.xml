@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{1a401904-4558-4216-bea6-1b4a454f9f08}">
+		<property name="assetPath">
+			<value>Jingle.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>12</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d67ad394-ef8b-4411-9778-4e3a82d33638}</destination>
+		</relationship>
+	</object>
+</objects>
