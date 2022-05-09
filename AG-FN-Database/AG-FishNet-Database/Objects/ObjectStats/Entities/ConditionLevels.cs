@@ -1,6 +1,6 @@
-﻿using OpenAlienGarden.Core.Identities;
+﻿using AG_FishNet_Database.Objects.Core.Identities;
 
-namespace OpenAlienGarden.ObjectStats.Entities
+namespace AG_FishNet_Database.Objects.ObjectStats.Entities
 {
     public class ConditionLevels : IdentityList<ConditionLevel>
     {

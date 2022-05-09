@@ -1,7 +1,6 @@
-﻿using OpenAlienGarden.Core.Identities;
-using OpenAlienGarden.ObjectStats.Base.Types;
+﻿using AG_FishNet_Database.Objects.Core.Identities;
 
-namespace OpenAlienGarden.ObjectStats.World.Time
+namespace AG_FishNet_Database.Objects.ObjectStats.World.Time
 {
     public class WeatherTypes : IdentityList<WeatherType>
     {

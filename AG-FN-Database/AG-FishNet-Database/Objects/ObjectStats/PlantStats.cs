@@ -1,9 +1,7 @@
-﻿using System;
-using OpenAlienGarden.ObjectStats.Base;
-using OpenAlienGarden.ObjectStats.Base.Types;
-using OpenAlienGarden.ObjectStats.Player;
+﻿using AG_FishNet_Database.Objects.ObjectStats.Base;
+using AG_FishNet_Database.Objects.ObjectStats.Base.Types;
 
-namespace OpenAlienGarden.ObjectStats
+namespace AG_FishNet_Database.Objects.ObjectStats
 {
     public class PlantStats : LivingStats<PlantStats>
     {

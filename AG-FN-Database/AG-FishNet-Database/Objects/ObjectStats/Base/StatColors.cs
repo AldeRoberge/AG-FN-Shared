@@ -1,6 +1,6 @@
-﻿using OpenAlienGarden.Core.Identities;
+﻿using AG_FishNet_Database.Objects.Core.Identities;
 
-namespace OpenAlienGarden.ObjectStats.Base
+namespace AG_FishNet_Database.Objects.ObjectStats.Base
 {
     public static class StatColors
     {

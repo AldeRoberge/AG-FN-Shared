@@ -1,6 +1,6 @@
-﻿using OpenAlienGarden.ObjectStats.Base;
+﻿using AG_FishNet_Database.Objects.ObjectStats.Base;
 
-namespace OpenAlienGarden.ObjectEntity.Base
+namespace AG_FishNet_Database.Objects.ObjectEntity.Base
 {
     public abstract class StatsEntity<T> : Entity where T : StatList<T>
     {

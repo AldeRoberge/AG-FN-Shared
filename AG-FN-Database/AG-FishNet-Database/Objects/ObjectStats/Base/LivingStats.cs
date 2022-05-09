@@ -1,8 +1,7 @@
 ﻿using System;
-using OpenAlienGarden.ObjectStats.Base.Types;
-using OpenAlienGarden.ObjectStats.Player;
+using AG_FishNet_Database.Objects.ObjectStats.Base.Types;
 
-namespace OpenAlienGarden.ObjectStats.Base
+namespace AG_FishNet_Database.Objects.ObjectStats.Base
 {
     public abstract class LivingStats<T> : StatList<T>
     {

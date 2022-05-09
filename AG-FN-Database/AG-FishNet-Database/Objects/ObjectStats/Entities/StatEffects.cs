@@ -1,8 +1,8 @@
-﻿using OpenAlienGarden.Core.Identities;
-using OpenAlienGarden.ObjectStats.Base;
-using OpenAlienGarden.ObjectStats.Player;
+﻿using AG_FishNet_Database.Objects.Core.Identities;
+using AG_FishNet_Database.Objects.ObjectStats.Base;
+using AG_FishNet_Database.Objects.ObjectStats.Player;
 
-namespace OpenAlienGarden.ObjectStats.Entities
+namespace AG_FishNet_Database.Objects.ObjectStats.Entities
 {
     public class StatEffects : IdentityList<StatEffect>
     {

@@ -1,6 +1,6 @@
-﻿using OpenAlienGarden.Core.Identities;
+﻿using AG_FishNet_Database.Objects.Core.Identities;
 
-namespace OpenAlienGarden.ObjectTypes.Pets
+namespace AG_FishNet_Database.Objects.ObjectTypes.Pets
 {
     public class PetType : Identity
     {

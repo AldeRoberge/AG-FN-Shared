@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using OpenAlienGarden.ObjectStats.World.Events.Base;
+using AG_FishNet_Database.Objects.ObjectStats.World.Events.Base;
 
-namespace OpenAlienGarden.ObjectTypes.Items
+namespace AG_FishNet_Database.Objects.ObjectTypes.Items
 {
     public class ItemUseEffect
     {

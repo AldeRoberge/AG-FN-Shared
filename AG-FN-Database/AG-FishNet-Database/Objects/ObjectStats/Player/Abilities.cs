@@ -1,7 +1,7 @@
-using OpenAlienGarden.Core.Identities;
-using OpenAlienGarden.ObjectStats.Base;
+using AG_FishNet_Database.Objects.Core.Identities;
+using AG_FishNet_Database.Objects.ObjectStats.Base;
 
-namespace OpenAlienGarden.ObjectStats.Player
+namespace AG_FishNet_Database.Objects.ObjectStats.Player
 {
     public class Abilities : IdentityList<AbilityType>
     {

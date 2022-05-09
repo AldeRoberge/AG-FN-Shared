@@ -1,6 +1,6 @@
-﻿using OpenAlienGarden.ObjectStats.Base;
+﻿using AG_FishNet_Database.Objects.ObjectStats.Base;
 
-namespace OpenAlienGarden.ObjectStats
+namespace AG_FishNet_Database.Objects.ObjectStats
 {
     public class PetStats : LivingStats<PetStats>
     {

@@ -1,6 +1,6 @@
-﻿using OpenAlienGarden.Core.Identities;
+﻿using AG_FishNet_Database.Objects.Core.Identities;
 
-namespace OpenAlienGarden.ObjectStats.Player
+namespace AG_FishNet_Database.Objects.ObjectStats.Player
 {
     public class PlayerRanks : IdentityList<PlayerRank>
     {

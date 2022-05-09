@@ -1,6 +1,6 @@
-﻿using OpenAlienGarden.Core.Identities;
+﻿using AG_FishNet_Database.Objects.Core.Identities;
 
-namespace OpenAlienGarden.ObjectTypes.WorldTiles
+namespace AG_FishNet_Database.Objects.ObjectTypes.WorldTiles
 {
     public class WorldTileType : Identity
     {

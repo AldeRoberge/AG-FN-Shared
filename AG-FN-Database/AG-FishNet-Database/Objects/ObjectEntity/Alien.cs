@@ -1,8 +1,7 @@
-﻿using OpenAlienGarden.ObjectEntity.Base;
-using OpenAlienGarden.ObjectStats;
-using OpenAlienGarden.ObjectStats.Base;
+﻿using AG_FishNet_Database.Objects.ObjectEntity.Base;
+using AG_FishNet_Database.Objects.ObjectStats;
 
-namespace OpenAlienGarden.ObjectEntity
+namespace AG_FishNet_Database.Objects.ObjectEntity
 {
     public class Alien : LivingStatsEntity<AlienStats>
     {

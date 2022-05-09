@@ -1,10 +1,9 @@
 ﻿using System.Collections.Generic;
-using OpenAlienGarden.Core;
-using OpenAlienGarden.Core.Data;
-using OpenAlienGarden.ObjectStats.Base;
-using OpenAlienGarden.ObjectStats.Entities;
+using AG_FishNet_Database.Objects.Core.Data;
+using AG_FishNet_Database.Objects.ObjectStats.Base;
+using AG_FishNet_Database.Objects.ObjectStats.Entities;
 
-namespace OpenAlienGarden.ObjectEntity.Base
+namespace AG_FishNet_Database.Objects.ObjectEntity.Base
 {
     /// <summary>
     /// A living entity combines a <see cref="ObjectTypes"/> with <see cref="ObjectStats"/> to create a living object.

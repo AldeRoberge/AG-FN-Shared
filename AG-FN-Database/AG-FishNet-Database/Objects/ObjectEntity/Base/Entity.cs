@@ -1,4 +1,4 @@
-﻿namespace OpenAlienGarden.ObjectEntity.Base
+﻿namespace AG_FishNet_Database.Objects.ObjectEntity.Base
 {
     public abstract class Entity
     {

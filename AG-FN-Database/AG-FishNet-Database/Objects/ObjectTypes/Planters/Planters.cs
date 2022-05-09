@@ -1,7 +1,6 @@
-﻿using OpenAlienGarden.Core.Identities;
-using OpenAlienGarden.ObjectTypes.Plants;
+﻿using AG_FishNet_Database.Objects.Core.Identities;
 
-namespace OpenAlienGarden.ObjectTypes.Planters
+namespace AG_FishNet_Database.Objects.ObjectTypes.Planters
 {
     public class Planters : IdentityList<PlanterType>
     {

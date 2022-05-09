@@ -1,12 +1,8 @@
-﻿using System;
-using OpenAlienGarden.Core;
-using OpenAlienGarden.ObjectEntity.Base;
-using OpenAlienGarden.ObjectStats;
-using OpenAlienGarden.ObjectStats.Base;
-using OpenAlienGarden.ObjectTypes;
-using OpenAlienGarden.ObjectTypes.Plants;
+﻿using AG_FishNet_Database.Objects.ObjectEntity.Base;
+using AG_FishNet_Database.Objects.ObjectStats;
+using AG_FishNet_Database.Objects.ObjectTypes.Plants;
 
-namespace OpenAlienGarden.ObjectEntity
+namespace AG_FishNet_Database.Objects.ObjectEntity
 {
     public class Plant : LivingStatsEntity<PlantStats>
     {

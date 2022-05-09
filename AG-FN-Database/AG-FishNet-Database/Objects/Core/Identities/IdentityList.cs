@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Reflection;
 
-namespace OpenAlienGarden.Core.Identities
+namespace AG_FishNet_Database.Objects.Core.Identities
 {
     public abstract class IdentityList<T> where T : Identity
     {

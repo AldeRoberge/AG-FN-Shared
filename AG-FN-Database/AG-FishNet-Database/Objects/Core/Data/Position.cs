@@ -1,4 +1,4 @@
-﻿namespace OpenAlienGarden.Core.Data
+﻿namespace AG_FishNet_Database.Objects.Core.Data
 {
     public class Position
     {

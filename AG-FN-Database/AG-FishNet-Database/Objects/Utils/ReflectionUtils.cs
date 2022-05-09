@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace OpenAlienGarden.Utils
+namespace AG_FishNet_Database.Objects.Utils
 {
     public static class ReflectionUtils
     {

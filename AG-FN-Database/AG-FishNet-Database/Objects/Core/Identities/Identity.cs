@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics.CodeAnalysis;
 
-namespace OpenAlienGarden.Core.Identities
+namespace AG_FishNet_Database.Objects.Core.Identities
 {
     public class Identity : IEquatable<Identity>
     {

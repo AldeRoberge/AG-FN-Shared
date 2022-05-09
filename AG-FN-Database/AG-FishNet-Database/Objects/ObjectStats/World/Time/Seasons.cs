@@ -1,7 +1,7 @@
 ﻿using System;
-using OpenAlienGarden.Core.Identities;
+using AG_FishNet_Database.Objects.Core.Identities;
 
-namespace OpenAlienGarden.ObjectStats.World.Time
+namespace AG_FishNet_Database.Objects.ObjectStats.World.Time
 {
     public class Seasons : IdentityList<SeasonType>
     {

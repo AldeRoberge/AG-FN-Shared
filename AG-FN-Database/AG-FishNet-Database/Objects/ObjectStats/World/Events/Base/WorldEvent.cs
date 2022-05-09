@@ -1,4 +1,4 @@
-﻿namespace OpenAlienGarden.ObjectStats.World.Events.Base
+﻿namespace AG_FishNet_Database.Objects.ObjectStats.World.Events.Base
 {
     public class WorldEvent
     {

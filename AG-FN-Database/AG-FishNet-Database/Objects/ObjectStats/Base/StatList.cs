@@ -1,12 +1,10 @@
-﻿using System;
-using System.Diagnostics.CodeAnalysis;
+﻿using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Reflection;
-using OpenAlienGarden.Core.Identities;
-using OpenAlienGarden.ObjectStats.Base.Types;
-using OpenAlienGarden.ObjectStats.Player;
+using AG_FishNet_Database.Objects.Core.Identities;
+using AG_FishNet_Database.Objects.ObjectStats.Base.Types;
 
-namespace OpenAlienGarden.ObjectStats.Base
+namespace AG_FishNet_Database.Objects.ObjectStats.Base
 {
     public abstract class StatList<T>
     {

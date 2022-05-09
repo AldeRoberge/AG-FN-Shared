@@ -1,7 +1,7 @@
-﻿using OpenAlienGarden.Core.Identities;
-using OpenAlienGarden.ObjectTypes.Rarities;
+﻿using AG_FishNet_Database.Objects.Core.Identities;
+using AG_FishNet_Database.Objects.ObjectTypes.Rarities;
 
-namespace OpenAlienGarden.ObjectTypes.Items
+namespace AG_FishNet_Database.Objects.ObjectTypes.Items
 {
     public class ItemType : Identity
     {

@@ -1,8 +1,7 @@
-﻿using System.Collections.Generic;
-using OpenAlienGarden.Core.Identities;
-using OpenAlienGarden.ObjectStats.World.Events;
+﻿using AG_FishNet_Database.Objects.Core.Identities;
+using AG_FishNet_Database.Objects.ObjectStats.World.Events;
 
-namespace OpenAlienGarden.ObjectTypes.Items
+namespace AG_FishNet_Database.Objects.ObjectTypes.Items
 {
     public class Items : IdentityList<ItemType>
     {

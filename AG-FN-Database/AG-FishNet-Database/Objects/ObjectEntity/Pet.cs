@@ -1,10 +1,8 @@
-﻿using OpenAlienGarden.ObjectEntity.Base;
-using OpenAlienGarden.ObjectStats;
-using OpenAlienGarden.ObjectStats.Base;
-using OpenAlienGarden.ObjectTypes;
-using OpenAlienGarden.ObjectTypes.Pets;
+﻿using AG_FishNet_Database.Objects.ObjectEntity.Base;
+using AG_FishNet_Database.Objects.ObjectStats;
+using AG_FishNet_Database.Objects.ObjectTypes.Pets;
 
-namespace OpenAlienGarden.ObjectEntity
+namespace AG_FishNet_Database.Objects.ObjectEntity
 {
     public class Pet : LivingStatsEntity<PetStats>
     {

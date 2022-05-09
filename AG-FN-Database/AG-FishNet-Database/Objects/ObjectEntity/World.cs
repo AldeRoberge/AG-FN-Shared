@@ -1,8 +1,8 @@
-﻿using OpenAlienGarden.ObjectEntity.Base;
-using OpenAlienGarden.ObjectStats;
-using OpenAlienGarden.ObjectStats.World.Time;
+﻿using AG_FishNet_Database.Objects.ObjectEntity.Base;
+using AG_FishNet_Database.Objects.ObjectStats;
+using AG_FishNet_Database.Objects.ObjectStats.World.Time;
 
-namespace OpenAlienGarden.ObjectEntity
+namespace AG_FishNet_Database.Objects.ObjectEntity
 {
     public class World : StatsEntity<WorldStats>
     {

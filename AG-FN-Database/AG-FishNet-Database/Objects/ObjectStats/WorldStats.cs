@@ -1,15 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Numerics;
-using OpenAlienGarden.ObjectEntity.Base;
-using OpenAlienGarden.ObjectStats.Base;
-using OpenAlienGarden.ObjectStats.Base.Types;
-using OpenAlienGarden.ObjectStats.World.Time;
-using OpenAlienGarden.ObjectTypes;
-using OpenAlienGarden.ObjectTypes.WorldTiles;
-using OpenAlienGarden.Utils;
+using AG_FishNet_Database.Objects.ObjectEntity.Base;
+using AG_FishNet_Database.Objects.ObjectStats.Base;
+using AG_FishNet_Database.Objects.ObjectStats.Base.Types;
+using AG_FishNet_Database.Objects.ObjectTypes.WorldTiles;
+using AG_FishNet_Database.Objects.Utils;
 
-namespace OpenAlienGarden.ObjectStats
+namespace AG_FishNet_Database.Objects.ObjectStats
 {
     public class WorldStats : StatList<WorldStats>
     {

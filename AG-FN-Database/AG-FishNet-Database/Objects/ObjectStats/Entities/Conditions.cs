@@ -1,8 +1,7 @@
 ﻿using System;
-using OpenAlienGarden.Core.Identities;
-using OpenAlienGarden.ObjectStats.Base;
+using AG_FishNet_Database.Objects.Core.Identities;
 
-namespace OpenAlienGarden.ObjectStats.Entities
+namespace AG_FishNet_Database.Objects.ObjectStats.Entities
 {
     public class ConditionTypes : IdentityList<ConditionType>
     {

@@ -1,4 +1,4 @@
-﻿namespace OpenAlienGarden.ObjectStats.Base.Types
+﻿namespace AG_FishNet_Database.Objects.ObjectStats.Base.Types
 {
     public class StringStat : Stat
     {

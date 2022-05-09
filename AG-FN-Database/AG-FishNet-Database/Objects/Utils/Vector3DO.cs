@@ -1,7 +1,7 @@
 ﻿
 using System;
 
-namespace OpenAlienGarden.Utils
+namespace AG_FishNet_Database.Objects.Utils
 {
     public class Vector3DO
     {

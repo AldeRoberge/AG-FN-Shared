@@ -1,6 +1,6 @@
-﻿using OpenAlienGarden.Core.Identities;
+﻿using AG_FishNet_Database.Objects.Core.Identities;
 
-namespace OpenAlienGarden.ObjectTypes.Mushrooms
+namespace AG_FishNet_Database.Objects.ObjectTypes.Mushrooms
 {
     public class Mushrooms : IdentityList<MushroomType>
     {

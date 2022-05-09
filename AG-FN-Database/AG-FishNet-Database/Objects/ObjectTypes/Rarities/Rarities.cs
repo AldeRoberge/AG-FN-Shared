@@ -1,4 +1,4 @@
-﻿namespace OpenAlienGarden.ObjectTypes.Rarities
+﻿namespace AG_FishNet_Database.Objects.ObjectTypes.Rarities
 {
     public class Rarities
     {
