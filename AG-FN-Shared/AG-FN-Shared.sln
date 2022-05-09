@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AG-FishNet-Shared", "AG-FishNet-Shared\AG-FishNet-Shared.csproj", "{D5AABE5E-5B11-4556-9B37-A2954788B8E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AG-FN-Shared", "AG-FN-Shared\AG-FN-Shared.csproj", "{D5AABE5E-5B11-4556-9B37-A2954788B8E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AG-FishNet-Tooling", "AG-FishNet-Tooling\AG-FishNet-Tooling.csproj", "{41A6ECB5-0E04-4A33-B9DE-8064896F3C93}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AG-FN-Tooling", "AG-FN-Tooling\AG-FN-Tooling.csproj", "{41A6ECB5-0E04-4A33-B9DE-8064896F3C93}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

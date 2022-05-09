@@ -116,9 +116,9 @@
         <Project>{c8418884-4690-4ebf-b486-40b61ab6821d}</Project>
         <Name>AG-FishNet-Database</Name>
       </ProjectReference>
-      <ProjectReference Include="..\AG-FishNet-Shared\AG-FishNet-Shared.csproj">
+      <ProjectReference Include="..\AG-FN-Shared\AG-FN-Shared.csproj">
         <Project>{d5aabe5e-5b11-4556-9b37-a2954788b8e5}</Project>
-        <Name>AG-FishNet-Shared</Name>
+        <Name>AG-FN-Shared</Name>
       </ProjectReference>
     </ItemGroup>
     <ItemGroup>
