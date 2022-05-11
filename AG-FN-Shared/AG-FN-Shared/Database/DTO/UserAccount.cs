@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
 using AG_FishNet_Shared.Database.DTO.Core;
 using AG_FishNet_Shared.Utils;
+using MongoDB.Bson;
 
 namespace AG_FishNet_Shared.Database.DTO
 {
@@ -18,6 +20,8 @@ namespace AG_FishNet_Shared.Database.DTO
         
         public bool AccountInUse { get; set; }
 
+        public FriendRequests FriendRequests { get; set; }
+        
         public UserAccount(string phoneNumber, string ipAddress)
         {
             PhoneNumber = phoneNumber;
@@ -25,6 +29,7 @@ namespace AG_FishNet_Shared.Database.DTO
             DateCreated = DateTime.Now;
             Username = RandomName.GetRandomName();
             AccountInUse = false;
+            FriendRequests = new FriendRequests();
         }
     }
 }
