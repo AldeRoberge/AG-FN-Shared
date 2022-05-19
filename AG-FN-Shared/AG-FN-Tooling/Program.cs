@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Threading.Tasks;
 using AG_FishNet_Shared.Utils;
+using Twilio;
+using Twilio.Rest.Verify.V2.Service;
 
 namespace AG_FishNet_Tooling
 {
@@ -20,10 +22,9 @@ namespace AG_FishNet_Tooling
                 bool rateLimited = RateLimiter.IsRateLimited("hey", 10, TimeSpan.FromMinutes(1));
                 Console.WriteLine(rateLimited);
             }
-            
+
             // Wait for 1 second
             await Task.Delay(500);
-            
         }
     }
 }

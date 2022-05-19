@@ -125,8 +125,8 @@
         <Reference Include="System.Transactions" />
         <Reference Include="System.Xml" />
         <Reference Include="System.Xml.Linq" />
-        <Reference Include="Twilio, Version=5.75.0.0, Culture=neutral, processorArchitecture=MSIL">
-            <HintPath>..\packages\Twilio.5.75.0\lib\net451\Twilio.dll</HintPath>
+        <Reference Include="Twilio, Version=5.75.1.0, Culture=neutral, processorArchitecture=MSIL">
+          <HintPath>..\packages\Twilio.5.75.1\lib\net451\Twilio.dll</HintPath>
         </Reference>
     </ItemGroup>
     <ItemGroup>
@@ -204,9 +204,6 @@
         <Compile Include="Objects\Utils\Vector2DO.cs" />
         <Compile Include="Objects\Utils\Vector3DO.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
-        <Compile Include="Setup\Core\Setup.cs" />
-        <Compile Include="Setup\Production.cs" />
-        <Compile Include="Setup\Testing.cs" />
         <Compile Include="Twilio\Twilio.cs" />
         <Compile Include="Utils\LoggingUtils.cs" />
         <Compile Include="Utils\RandomName.cs" />

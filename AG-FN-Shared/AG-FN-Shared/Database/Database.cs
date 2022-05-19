@@ -33,12 +33,12 @@ namespace AG_FishNet_Shared.Database
         {
             // The name of the database depends on the setup (testing/production)
             _database = GetDatabase(databaseName, connectionString);
+            Log.Info("Success! Connected to database: " + databaseName + "!");
         }
 
         private IMongoDatabase GetDatabase(string databaseName, string connectionString)
         {
-            Log.Info("Getting the " + databaseName + " database in " + Setup.Core.Setup.GetCurrentSetup().GetType().Name +
-                     " mode...");
+            Log.Info("Getting the " + databaseName + " database...");
 
             _mongoClient = new MongoClient(connectionString);
             return _mongoClient.GetDatabase(databaseName);

@@ -10,19 +10,21 @@ namespace AG_FishNet_Shared.Twilio
 
         private readonly string _pathServiceSid;
 
+
+
         public Twilio(string accountSid, string authToken, string pathServiceId)
         {
             TwilioClient.Init(accountSid, authToken);
             _pathServiceSid = pathServiceId;
             // YEah
         }
-        
+
         public Task<VerificationResource> SendPhoneCodeAsync(string phoneNumber)
         {
             var verification = VerificationResource.CreateAsync(
+                pathServiceSid: _pathServiceSid,
                 to: phoneNumber,
-                channel: "sms",
-                pathServiceSid: _pathServiceSid
+                channel: "sms"
             );
 
             return verification;
@@ -31,10 +33,12 @@ namespace AG_FishNet_Shared.Twilio
         public Task<VerificationCheckResource> ValidatePhoneCodeAsync(string phoneNumber, string code)
         {
             var verificationCheck = VerificationCheckResource.CreateAsync(
+                pathServiceSid: _pathServiceSid,
                 to: phoneNumber,
-                code: code,
-                pathServiceSid: _pathServiceSid
+                code: code
             );
+
+            Log.Info("[TWILIO] Path service sid: {0}", _pathServiceSid);
 
             return verificationCheck;
         }
